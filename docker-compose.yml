@@ -1,0 +1,9 @@
+services:
+  wb-parser:
+    build: .
+    container_name: wb-parser
+    volumes:
+      - ./src:/app/src
+      - ./reports:/app/reports
+    env_file: .env
+    command: python src/main.py

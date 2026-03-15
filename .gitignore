@@ -1,0 +1,30 @@
+# Virtual environment
+.venv/
+env/
+venv/
+
+# VSCode settings
+.vscode/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Playwright cache
+playwright/.cache/
+ms-playwright/
+
+# Excel reports
+*.xlsx
+
+# Logs
+*.log
+
+# Docker
+*.pid
+
+# System files
+.DS_Store
+Thumbs.db
